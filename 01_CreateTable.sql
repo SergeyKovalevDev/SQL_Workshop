@@ -4,6 +4,7 @@ CREATE TABLE users (
 	firstname varchar(40) NOT NULL,
 	surname varchar(40) NULL,
 	email varchar(40) NOT NULL,
+	create_date timestamp NOT NULL,
 	CONSTRAINT users_pkey PRIMARY KEY (id)
 );
 
